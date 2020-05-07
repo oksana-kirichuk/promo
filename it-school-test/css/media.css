@@ -1,0 +1,126 @@
+@media (max-width: 1200px) {
+  .wrapper {
+    margin: 0 15px;
+  }
+  .promo .promo-courses .promo-list {
+    flex-direction: column;
+  }
+  .promo .promo-courses .promo-list .promo-card {
+    width: 45%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  .promo .form-video-container {
+    flex-direction: column;
+  }
+  .promo .form-video-container .video-aside {
+    margin-right: 0;
+    padding-bottom: 80px;
+    margin: 0 auto;
+  }
+  .promo .form-video-container .video-aside .promo-btn {
+    width: 560px;
+    padding: 20px 0;
+  }
+}
+@media (max-width: 900px) {
+  .promo .logo-container .logo-text .logo-text-top {
+    font-size: 18px !important;
+  }
+  .promo .logo-container .logo-text p {
+    font-size: 12px !important;
+  }
+  .promo .header-menu ul li {
+    display: none;
+  }
+  .promo .header-menu ul li.ham-menu {
+    display: block;
+  }
+  .promo .header-menu ul li.ham-menu span {
+    color: #fff;
+    font-size: 40px;
+    margin-left: 15px;
+  }
+  .promo .promo-courses {
+    padding-bottom: 50px;
+  }
+  .promo .promo-courses .promo-list .promo-card .avatar {
+    width: 250px;
+    height: 250px;
+  }
+  .promo .collaboration-container .collaboration-block .coll-form form .form-messengers {
+    padding-bottom: 20px;
+  }
+}
+@media (max-width: 600px) {
+  .logo-container .logo-text .logo-text-top {
+    font-size: 14px !important;
+    letter-spacing: 0 !important;
+  }
+  .logo-container .logo-text .logo-text-bottom {
+    display: none;
+  }
+  .promo-title {
+    padding: 40px 0 !important;
+  }
+  .promo-title h1,
+  .promo-title h2 {
+    font-size: 22px !important;
+  }
+  .promo-courses {
+    padding-bottom: 30px !important;
+  }
+  .promo-courses .promo-list .promo-card {
+    width: 80% !important;
+  }
+  .promo-courses .promo-list .promo-card .card-title {
+    padding-top: 10px !important;
+  }
+  .promo-courses .promo-list .promo-card .avatar {
+    width: 100% !important;
+  }
+  .form-video .form-video-container {
+    padding-bottom: 0;
+  }
+  .form-video .form-video-container .video-aside {
+    padding-bottom: 50px;
+  }
+  .form-video .form-video-container .video-aside iframe {
+    width: 90vw;
+  }
+  .form-video .form-video-container .video-aside .promo-btn {
+    width: 90vw;
+  }
+  .form-video .form-video-container .video-aside .promo-btn a {
+    font-size: 16px;
+  }
+  footer {
+    background: #2B57B1;
+  }
+  footer .footer-container {
+    padding: 30px 0;
+  }
+  footer .footer-container .footer-menu {
+    margin-bottom: 50px;
+  }
+  footer .footer-container .footer-contacts {
+    margin-bottom: 50px;
+  }
+  .collaboration-container .collaboration .coll-top h2 {
+    font-size: 26px;
+  }
+  .collaboration-container .collaboration-block .coll-form form {
+    padding-bottom: 20px;
+  }
+  .collaboration-container .collaboration-block .coll-form form .form-btns .form-btn {
+    width: auto !important;
+  }
+  .collaboration-container .collaboration-block .coll-form form .form-btns .form-btn:first-child {
+    padding: 10px 50px !important;
+  }
+  .collaboration-container .collaboration-block .coll-form form .form-btns .form-btn-reset {
+    padding: 10px 25px !important;
+    width: auto !important;
+    margin: 10px 0;
+  }
+}

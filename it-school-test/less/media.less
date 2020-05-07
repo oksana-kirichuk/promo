@@ -1,0 +1,214 @@
+// out: ../css/media.css
+
+@media (max-width: 1200px) {
+    .wrapper {
+        margin: 0 15px;
+    }
+
+    .promo {
+        .promo-courses {
+            .promo-list {
+                flex-direction: column;
+
+                .promo-card {
+                    width: 45%;
+                    margin: 0 auto;
+                    margin-bottom: 30px;
+                }
+            }
+        }
+
+        .form-video-container {
+            flex-direction: column;
+            
+            .video-aside {
+                margin-right: 0;
+                padding-bottom: 80px;
+                margin: 0 auto;
+
+                .promo-btn {
+                    width: 560px;
+                    padding: 20px 0;
+                }
+            }
+        }
+    }
+   
+}
+
+@media (max-width: 900px) {
+    .promo {
+        .logo-container {
+            .logo-text {
+                .logo-text-top {
+                    font-size: 18px !important;
+                }
+
+                p {
+                    font-size: 12px !important;
+                }
+            }
+        }
+
+        .header-menu {
+            ul {
+                li {
+                    display: none;
+
+                    &.ham-menu {
+                        display: block;
+
+                        span {
+                            color: #fff;
+                            font-size: 40px;
+                            margin-left: 15px;
+                        }
+                    }
+                }
+            }
+        }
+        .promo-courses {
+            padding-bottom: 50px;
+
+            .promo-list {
+                .promo-card {
+                    .avatar {
+                        width: 250px;
+                        height: 250px;
+                    }
+                }
+            }
+        }
+
+        .collaboration-container {
+            .collaboration-block {
+                .coll-form {
+                    form {
+                        .form-messengers {
+                            padding-bottom: 20px;
+                        }
+                    }
+                }
+            }
+        }   
+    }  
+}
+
+@media (max-width: 600px) {
+
+    .logo-container {
+        .logo-text {
+            .logo-text-top {
+                font-size: 14px !important;
+                letter-spacing: 0 !important;
+            }
+
+            .logo-text-bottom {
+                display: none;
+            }
+        }
+    }
+
+    .promo-title {
+        padding: 40px 0 !important;
+
+        h1, h2 {
+            font-size: 22px !important;
+        }
+    }
+
+    .promo-courses {
+        padding-bottom: 30px !important;
+
+        .promo-list {
+
+            .promo-card {
+                width: 80% !important;
+
+                .card-title {
+                    padding-top: 10px !important;
+                }
+
+                .avatar {
+                    width: 100% !important;
+                }
+            }
+        }
+    }
+    
+    .form-video {
+        .form-video-container {
+            padding-bottom: 0;
+
+            .video-aside {
+                padding-bottom: 50px;
+
+                iframe {
+                    width: 90vw;
+                }
+
+                .promo-btn {
+                    width: 90vw;
+
+                    a {
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+
+    footer {
+        background: #2B57B1;
+    
+        .footer-container {
+            padding: 30px 0;
+
+            .footer-menu {
+                margin-bottom: 50px;
+                
+            }
+    
+            .footer-contacts {
+                margin-bottom: 50px;
+            }
+        }
+    }
+
+    .collaboration-container {
+        .collaboration {
+            .coll-top {
+                h2 {
+                    font-size: 26px;  
+                }
+            } 
+        }
+
+        .collaboration-block {
+            .coll-form {
+                form {
+                    padding-bottom: 20px;
+                    
+                    .form-btns {
+                        .form-btn {
+                            width: auto !important;
+
+                            &:first-child {
+                                padding: 10px 50px !important;
+                            }
+                        }
+
+                        .form-btn-reset {
+                            padding: 10px 25px !important; 
+                            width: auto !important;
+                            margin: 10px 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
