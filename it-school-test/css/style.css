@@ -356,12 +356,12 @@ footer .footer-container .footer-technologies .tech-items span {
 .promo header .header-container-promo .header-menu ul li {
   padding: 0 15px;
 }
+.promo header .header-container-promo .header-menu ul li.ham-menu {
+  display: none;
+}
 .promo header .header-container-promo .header-menu ul li a {
   color: #fff;
   font-size: 16px;
-}
-.promo header .header-container-promo .header-menu ul li .ham-menu {
-  display: none;
 }
 .promo .promo-title {
   padding: 80px 0;

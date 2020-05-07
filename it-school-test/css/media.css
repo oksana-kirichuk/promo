@@ -34,9 +34,9 @@
     display: none;
   }
   .promo .header-menu ul li.ham-menu {
-    display: block;
+    display: block !important;
   }
-  .promo .header-menu ul li.ham-menu span {
+  .promo .header-menu ul li.ham-menu a span {
     color: #fff;
     font-size: 40px;
     margin-left: 15px;
